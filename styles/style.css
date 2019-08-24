@@ -1,0 +1,5 @@
+.imdbRating a,
+.rottenTomatoesRating a,
+.metacriticRating a {
+	color: #fff;
+}

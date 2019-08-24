@@ -1,0 +1,40 @@
+{
+   "manifest_version": 2,
+   "name": "The Streaming Wizard",
+   "version": "1.0.0",
+   "description": "Adds IMDB, Rotten Tomatoes, and Metacritic ratings, along with Oscar and Golden Globe awards, to titles on Netflix and Hulu.",
+   "icons": {
+      "16": "images/meta/icon16.png",
+      "32": "images/meta/icon32.png",
+      "48": "images/meta/icon48.png",
+      "128": "images/meta/icon128.png"
+   },
+   "background": {
+      "scripts": [ "src/background.js" ]
+   },
+   "content_scripts": [ 
+      {
+      "css": [ "styles/style.css" ],
+      "js": [ "src/jquery-3.4.1.min.js", "src/getRatings.js", "src/addRatings.js", "src/contentscriptnetflix.js"],
+      "matches": [ "https://*.netflix.com/*"]
+      },
+      {
+         "css": [ "styles/style.css" ],
+         "js": [ "src/jquery-3.4.1.min.js", "src/getRatings.js", "src/addRatings.js", "src/contentscripthulu.js"],
+         "matches": [ "https://*.hulu.com/*"]
+      } 
+   ],
+   "page_action": {
+      "default_icon": {
+         "16": "images/meta/icon16.png",
+         "32": "images/meta/icon32.png",
+         "48": "images/meta/icon48.png",
+         "128": "images/meta/icon128.png"
+      },
+      "default_title": "The Streaming Wizard"
+   },
+   "permissions": [ "https://*.netflix.com/*", "https://*.hulu.com/*", "https://ajax.googleapis.com/", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "web_accessible_resources": [ "images/imdb.png", "images/rtRotten.png", "images/rtFresh.png","images/rtCertifiedFresh.png", "images/metacritic.png", 
+   "images/oscar.png", "images/goldenglobe.png"]
+}
