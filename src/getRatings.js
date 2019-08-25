@@ -38,7 +38,7 @@ function getGoldenGlobes(response) {
 
 // Private OMDB API key
 const OMDB_API_URL = 'https://www.omdbapi.com/?';
-const API_KEY = "9447a5e3";
+const API_KEY = "XXXXXXXX";
 
 // Build query using title and key
 function queryBuilder(title, year) {
