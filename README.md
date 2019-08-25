@@ -4,6 +4,8 @@ The Streaming Wizard adds movie and TV series ratings from IMDB, Rotten Tomatoes
 
 With this lightweight extension, you will never again have to browse Netflix or Hulu while simultaneously searching for ratings on the side. The cumbersome days of finding something good to watch and avoiding all the crap are over.
 
+https://chrome.google.com/webstore/detail/the-streaming-wizard/kccdfgnjifmimampikofeaobooddbcaj?hl=en
+
 ## Functionality
 
 The extension adds ratings and awards when users click on title details. Links to the IMDB and Rotten Tomatoes web pages for titles are also attached to the ratings.
