@@ -26,7 +26,7 @@ Per Rotten Tomatoes, titles below 60% are rotten, titles between 60% and 75% are
 
 1. The getRatings function uses jQuery.ajax to query the OMDB API and return ratings to the callback function, which is the addRatings function.
 
-2. The addRatings function creates elements for the rating logos, links to the official ratings pages (IMDB and Metacritic only ATM), and the ratings themselves. At the moment, the OMDB API does not provide Rotten Tomatoes and Metacritic data for TV series.
+2. The addRatings function creates elements for the rating logos, links to the official ratings pages (IMDB and Rotten Tomatoes only ATM), and the ratings themselves. At the moment, the OMDB API does not provide Rotten Tomatoes and Metacritic data for TV series.
 
 ![Netfilx Certified Fresh Example](images/workingimagesresized/netflixCertifiedFresh.png)
 
