@@ -28,6 +28,8 @@ Per Rotten Tomatoes, titles below 60% are rotten, titles between 60% and 75% are
 
 2. The addRatings function creates elements for the rating logos, links to the official ratings pages (IMDB and Rotten Tomatoes only ATM), and the ratings themselves. At the moment, the OMDB API does not provide Rotten Tomatoes and Metacritic data for TV series.
 
+## Examples
+
 ![Netfilx Certified Fresh Example](images/workingimagesresized/netflixCertifiedFresh.png)
 
 ![Netfilx Fresh Example](images/workingimagesresized/netflixFresh.png)
